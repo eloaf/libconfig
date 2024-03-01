@@ -22,7 +22,7 @@ else:
     from subprocess import run, PIPE    # nosec
 
 
-pd.set_option('display.max_colwidth', -1)
+pd.set_option('display.max_colwidth', None)
 
 __all__ = ['Config', 'AlreadyRegisteredError', 'NotRegisteredError']
 
